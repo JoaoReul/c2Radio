@@ -9,7 +9,12 @@
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>l4jbh0j5b13</unique-id>
     <saved-with-version>28000</saved-with-version>
-    <used-plugins />
+    <used-plugins>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
     <used-behaviors />
     <used-effects />
     <configurations>
@@ -37,7 +42,77 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-type name="Cenergy" sid="239336653043138">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="814525750078396" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Cantenna" sid="789240888221430">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="523253816385394" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Chome" sid="293429710889877">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="986288317978036" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NEnergy" sid="306968334919732">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="NAntenna" sid="768152863582814">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="NHomes" sid="982389027459106">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="NMoney" sid="681459088605843">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="VMoney" sid="476123329493720">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Mouse" sid="296395090311062">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Touch" sid="601731749981812">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Venergy" sid="580797768609682">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Vantenna" sid="561462142844524">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Vhouse" sid="482580456221139">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="NEnergy2" sid="715529535263644">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CostEnergy" sid="261649874958937">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="NEnergy3" sid="232195818786525">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CostAntenna" sid="469024185642176">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CostHouse" sid="677919879694391">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
@@ -45,7 +120,14 @@
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Mouse" uid="8" />
+        <global-instance type="Touch" uid="9">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>

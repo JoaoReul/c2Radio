@@ -2,5 +2,131 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
-    <events />
+    <events>
+        <variable constant="0" name="Antenna" sid="871368242612268" static="0" type="number">1</variable>
+        <variable constant="0" name="Energy" sid="961546951733250" static="0" type="number">1</variable>
+        <variable constant="0" name="House" sid="577045934335912" static="0" type="number">1</variable>
+        <variable constant="0" name="Money" sid="663302263392117" static="0" type="number">0</variable>
+        <event-block sid="666516872672355">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="626224430666697" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="810591103183525" type="System">
+                    <param id="0" name="Variable">Money</param>
+                    <param id="1" name="Value">House</param>
+                </action>
+                <action id="0" name="Set text" sid="202171474542216" type="VMoney">
+                    <param id="0" name="Text">Money</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="697039267748687">
+            <conditions>
+                <condition id="0" name="On click" sid="362568400324322" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="138219003994445" type="System">
+                    <param id="0" name="Variable">Money</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">2*House</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="629328521419286" type="Mouse">
+                    <param id="0" name="Object">Chome</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="996234547037194" type="System">
+                    <param id="0" name="Variable">Money</param>
+                    <param id="1" name="Value">2*House</param>
+                </action>
+                <action id="-10" name="Add to" sid="391873954637110" type="System">
+                    <param id="0" name="Variable">House</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="706897166517009" type="Vhouse">
+                    <param id="0" name="Text">House</param>
+                </action>
+                <action id="0" name="Set text" sid="666092416623834" type="CostHouse">
+                    <param id="0" name="Text">2*House</param>
+                </action>
+                <action id="0" name="Set text" sid="165755688379992" type="VMoney">
+                    <param id="0" name="Text">Money</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="286961373429409">
+            <conditions>
+                <condition id="0" name="On click" sid="739319895097762" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="617847418882672" type="System">
+                    <param id="0" name="Variable">Money</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">2*Antenna</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="453760838718648" type="Mouse">
+                    <param id="0" name="Object">Cantenna</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="963114592734399" type="System">
+                    <param id="0" name="Variable">Money</param>
+                    <param id="1" name="Value">2*Antenna</param>
+                </action>
+                <action id="-10" name="Add to" sid="832314440829211" type="System">
+                    <param id="0" name="Variable">Antenna</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="678824653396358" type="Vantenna">
+                    <param id="0" name="Text">Antenna</param>
+                </action>
+                <action id="0" name="Set text" sid="794502574487011" type="CostAntenna">
+                    <param id="0" name="Text">2*Antenna</param>
+                </action>
+                <action id="0" name="Set text" sid="740063426710254" type="VMoney">
+                    <param id="0" name="Text">Money</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="690568988830002">
+            <conditions>
+                <condition id="0" name="On click" sid="279934429740660" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="200506273832221" type="System">
+                    <param id="0" name="Variable">Money</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">2*Energy</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="520562287931743" type="Mouse">
+                    <param id="0" name="Object">Cenergy</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="159624482741995" type="System">
+                    <param id="0" name="Variable">Money</param>
+                    <param id="1" name="Value">2*Energy</param>
+                </action>
+                <action id="-10" name="Add to" sid="388147216068357" type="System">
+                    <param id="0" name="Variable">Energy</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="647783282791918" type="Venergy">
+                    <param id="0" name="Text">Energy</param>
+                </action>
+                <action id="0" name="Set text" sid="210635218943206" type="CostEnergy">
+                    <param id="0" name="Text">2*Energy</param>
+                </action>
+                <action id="0" name="Set text" sid="142932551431361" type="VMoney">
+                    <param id="0" name="Text">Money</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
