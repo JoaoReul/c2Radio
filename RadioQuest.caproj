@@ -112,6 +112,20 @@
         <object-type name="CostHouse" sid="677919879694391">
             <plugin id="Text" />
         </object-type>
+        <object-type name="TData" sid="595137579039713">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Vdata" sid="692692311779815">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Cdata" sid="566431712155031">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="587461634985872" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

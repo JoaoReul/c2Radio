@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="Pesquisa" sid="711760826476307" static="0" type="number">0</variable>
         <variable constant="0" name="Antenna" sid="871368242612268" static="0" type="number">1</variable>
         <variable constant="0" name="Energy" sid="961546951733250" static="0" type="number">1</variable>
         <variable constant="0" name="House" sid="577045934335912" static="0" type="number">1</variable>
@@ -15,11 +16,11 @@
             </conditions>
             <actions>
                 <action id="-10" name="Add to" sid="810591103183525" type="System">
-                    <param id="0" name="Variable">Money</param>
-                    <param id="1" name="Value">House</param>
+                    <param id="0" name="Variable">Pesquisa</param>
+                    <param id="1" name="Value">Antenna</param>
                 </action>
-                <action id="0" name="Set text" sid="202171474542216" type="VMoney">
-                    <param id="0" name="Text">Money</param>
+                <action id="0" name="Set text" sid="202171474542216" type="Vdata">
+                    <param id="0" name="Text">Pesquisa</param>
                 </action>
             </actions>
         </event-block>
@@ -125,6 +126,38 @@
                 </action>
                 <action id="0" name="Set text" sid="142932551431361" type="VMoney">
                     <param id="0" name="Text">Money</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="865260508758741">
+            <conditions>
+                <condition id="0" name="On click" sid="750858713797617" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="936929613088666" type="System">
+                    <param id="0" name="Variable">Pesquisa</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="7" name="Cursor is over object" sid="387071092851424" type="Mouse">
+                    <param id="0" name="Object">Cdata</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="476681523653243" type="System">
+                    <param id="0" name="Variable">Pesquisa</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Add to" sid="313205186473905" type="System">
+                    <param id="0" name="Variable">Money</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="385786407815573" type="VMoney">
+                    <param id="0" name="Text">Money</param>
+                </action>
+                <action id="0" name="Set text" sid="369998027358696" type="Vdata">
+                    <param id="0" name="Text">Pesquisa</param>
                 </action>
             </actions>
         </event-block>
