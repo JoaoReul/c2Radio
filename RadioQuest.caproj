@@ -126,13 +126,20 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TEvent" sid="768480358062267">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="VEvent" sid="348311184496722">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Gameplay.xml</event-sheet>
+        <event-sheet>Eventos.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="8" />

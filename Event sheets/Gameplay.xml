@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Event sheet 1</name>
+    <name>Gameplay</name>
     <events>
+        <include>Eventos</include>
         <variable constant="0" name="Pesquisa" sid="711760826476307" static="0" type="number">0</variable>
         <variable constant="0" name="Antenna" sid="871368242612268" static="0" type="number">1</variable>
         <variable constant="0" name="Energy" sid="961546951733250" static="0" type="number">1</variable>

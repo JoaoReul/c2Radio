@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos</name>
+    <events>
+        <variable constant="0" name="Evento" sid="455702987646912" static="0" type="number">0</variable>
+        <event-block sid="335234146171701">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="661136850101162" type="System">
+                    <param id="0" name="Interval (seconds)">60</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="367678333521361" type="System">
+                    <param id="0" name="Variable">Evento</param>
+                    <param id="1" name="Value">random(1,5)</param>
+                </action>
+                <action id="0" name="Set text" sid="880899799853824" type="VEvent">
+                    <param id="0" name="Text">Evento</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="593837961267565">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="452325535917727" type="System">
+                    <param id="0" name="Variable">Evento</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="527486842700514">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="605971550074623" type="System">
+                    <param id="0" name="Variable">Evento</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="969975937089994">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="377787434806476" type="System">
+                    <param id="0" name="Variable">Evento</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="841868181797314">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="752751642676930" type="System">
+                    <param id="0" name="Variable">Evento</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="193595965359532">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="657774112034689" type="System">
+                    <param id="0" name="Variable">Evento</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
