@@ -14,6 +14,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout active="1" order="2">jog</layout>
         <event-sheet order="1">tela ini</event-sheet>
         <event-sheet order="3">Gameplay</event-sheet>
+        <event-sheet order="4">Antenna</event-sheet>
+        <event-sheet order="5">Eventos</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

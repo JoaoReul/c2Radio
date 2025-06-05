@@ -597,6 +597,9 @@
         </object-type>
         <object-type name="antena" sid="827684764294002">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="level" sid="785789279665128" type="number" />
+            </instance-variables>
             <animation-folder>
                 <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="412153414674909" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Manel\Downloads\IMG_20250602_152644_827 (1).png">
@@ -622,6 +625,9 @@
         </object-type>
         <object-type name="CapaRadioQuest" sid="938839655636127">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="level" sid="217678131909695" type="number" />
+            </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="217724411301337" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.500148" original-source="C:\Users\Manel\Downloads\CapaRadioQuest.png" />
@@ -651,6 +657,8 @@
     <event-folder>
         <event-sheet>Gameplay.xml</event-sheet>
         <event-sheet>tela ini.xml</event-sheet>
+        <event-sheet>Antenna.xml</event-sheet>
+        <event-sheet>Eventos.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="8" />

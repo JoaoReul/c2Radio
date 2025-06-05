@@ -3,72 +3,111 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos</name>
     <events>
-        <variable constant="0" name="Evento" sid="455702987646912" static="0" type="number">0</variable>
-        <event-block sid="335234146171701">
+        <variable constant="0" name="evento2" sid="754713332283393" static="0" type="number">1</variable>
+        <event-block sid="873061874139161">
             <conditions>
-                <condition id="-6" name="Every X seconds" sid="661136850101162" type="System">
-                    <param id="0" name="Interval (seconds)">60</param>
+                <condition id="-6" name="Every X seconds" sid="365633279065133" type="System">
+                    <param id="0" name="Interval (seconds)">30</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Set value" sid="367678333521361" type="System">
-                    <param id="0" name="Variable">Evento</param>
-                    <param id="1" name="Value">random(1,5)</param>
-                </action>
-                <action id="0" name="Set text" sid="880899799853824" type="VEvent">
-                    <param id="0" name="Text">Evento</param>
+                <action id="-9" name="Set value" sid="564899410417852" type="System">
+                    <param id="0" name="Variable">evento</param>
+                    <param id="1" name="Value">choose(1,2,3,4)</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="593837961267565">
+        <event-block sid="970720971925044">
             <conditions>
-                <condition id="-14" name="Compare variable" sid="452325535917727" type="System">
-                    <param id="0" name="Variable">Evento</param>
+                <condition id="-14" name="Compare variable" sid="673215670489912" type="System">
+                    <param id="0" name="Variable">evento</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-15" name="Set visible" sid="607068521073867" type="diaDeSol">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="225633391379549" type="noite">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="904699917108185" type="tornado">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="888012656444237" type="chuva">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
         </event-block>
-        <event-block sid="527486842700514">
+        <event-block sid="362811995784433">
             <conditions>
-                <condition id="-14" name="Compare variable" sid="605971550074623" type="System">
-                    <param id="0" name="Variable">Evento</param>
+                <condition id="-14" name="Compare variable" sid="567115958380304" type="System">
+                    <param id="0" name="Variable">evento</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">2</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-15" name="Set visible" sid="777291938628232" type="diaDeSol">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="816619557643686" type="noite">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="802928505269323" type="tornado">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="339724199261716" type="chuva">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
         </event-block>
-        <event-block sid="969975937089994">
+        <event-block sid="765670075664680">
             <conditions>
-                <condition id="-14" name="Compare variable" sid="377787434806476" type="System">
-                    <param id="0" name="Variable">Evento</param>
+                <condition id="-14" name="Compare variable" sid="822994162701313" type="System">
+                    <param id="0" name="Variable">evento</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">3</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-15" name="Set visible" sid="198640731497818" type="diaDeSol">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="515462217436918" type="noite">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="552725364694661" type="tornado">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="713975500878512" type="chuva">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
         </event-block>
-        <event-block sid="841868181797314">
+        <event-block sid="329598717908386">
             <conditions>
-                <condition id="-14" name="Compare variable" sid="752751642676930" type="System">
-                    <param id="0" name="Variable">Evento</param>
+                <condition id="-14" name="Compare variable" sid="833227935443455" type="System">
+                    <param id="0" name="Variable">evento</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">4</param>
                 </condition>
             </conditions>
-            <actions />
-        </event-block>
-        <event-block sid="193595965359532">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="657774112034689" type="System">
-                    <param id="0" name="Variable">Evento</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">5</param>
-                </condition>
-            </conditions>
-            <actions />
+            <actions>
+                <action id="-15" name="Set visible" sid="367354905524228" type="diaDeSol">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="524603475606504" type="noite">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="330579178106458" type="tornado">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="237827603605826" type="chuva">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
