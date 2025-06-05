@@ -10,9 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="1">Layout 1</layout>
-        <event-sheet order="2">Gameplay</event-sheet>
-        <event-sheet order="3">Eventos</event-sheet>
+        <layout order="0">tela inici</layout>
+        <layout active="1" order="2">jog</layout>
+        <event-sheet order="1">tela ini</event-sheet>
+        <event-sheet order="3">Gameplay</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -23,15 +24,55 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="object-folder/inicio/" />
+        <folder expanded="1" path="object-folder/inicio/telas/" />
+        <folder expanded="1" path="object-folder/botoes compra/" />
+        <folder expanded="1" path="object-folder/metagame/" />
+        <folder expanded="1" path="object-folder/jogo/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
-        <folder expanded="1" path="animation-folder/Cenergy/" />
-        <folder expanded="1" path="animation-folder/Cantenna/" />
-        <folder expanded="1" path="animation-folder/Chome/" />
+        <folder expanded="1" path="animation-folder/mapa/" />
+        <folder expanded="1" path="animation-folder/chuva/" />
+        <folder expanded="1" path="animation-folder/diaDeSol/" />
+        <folder expanded="1" path="animation-folder/noite/" />
+        <folder expanded="1" path="animation-folder/noticias/" />
+        <folder expanded="1" path="animation-folder/radio/" />
+        <folder expanded="1" path="animation-folder/pc/" />
+        <folder expanded="1" path="animation-folder/tela/" />
+        <folder expanded="1" path="animation-folder/vidro/" />
+        <folder expanded="1" path="animation-folder/tornado/" />
+        <folder expanded="1" path="animation-folder/ligartela/" />
         <folder expanded="1" path="animation-folder/Cdata/" />
+        <folder expanded="1" path="animation-folder/Comprarantenna/" />
+        <folder expanded="1" path="animation-folder/ComprarEnergia/" />
+        <folder expanded="1" path="animation-folder/ComprarCasas/" />
+        <folder expanded="1" path="animation-folder/paredeA1/" />
+        <folder expanded="1" path="animation-folder/cameraa/" />
+        <folder expanded="1" path="animation-folder/mexecamera/" />
+        <folder expanded="1" path="animation-folder/locationmapamundi/" />
+        <folder expanded="1" path="animation-folder/chaoradioastro/" />
+        <folder expanded="1" path="animation-folder/operario/" />
+        <folder expanded="1" path="animation-folder/bloqueado/" />
+        <folder expanded="1" path="animation-folder/Inbound/" />
+        <folder expanded="1" path="animation-folder/Offbound/" />
+        <folder expanded="1" path="animation-folder/slot/" />
+        <folder expanded="1" path="animation-folder/slot2/" />
+        <folder expanded="1" path="animation-folder/slot3/" />
+        <folder expanded="1" path="animation-folder/slot4/" />
+        <folder expanded="1" path="animation-folder/slot5/" />
+        <folder expanded="1" path="animation-folder/slot6/" />
+        <folder expanded="1" path="animation-folder/slot7/" />
+        <folder expanded="1" path="animation-folder/slot8/" />
+        <folder expanded="1" path="animation-folder/brasilParaMapa/" />
+        <folder expanded="1" path="animation-folder/mapaparapc/" />
+        <folder expanded="1" path="animation-folder/fundoLoja/" />
+        <folder expanded="1" path="animation-folder/laboratorio/" />
+        <folder expanded="1" path="animation-folder/antena/" />
+        <folder expanded="1" path="animation-folder/CapaRadioQuest/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
     </folders-expanded>
 </c2uistate>
