@@ -14,8 +14,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="3">jog</layout>
         <event-sheet order="2">tela ini</event-sheet>
         <event-sheet order="4">Gameplay</event-sheet>
-        <event-sheet active="1" order="5">Antenna</event-sheet>
+        <event-sheet order="5">Antenna</event-sheet>
         <event-sheet order="6">Eventos</event-sheet>
+        <event-sheet active="1" order="7">Houses</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -26,11 +27,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="object-folder/inicio/" />
+        <folder expanded="0" path="object-folder/inicio/" />
         <folder expanded="1" path="object-folder/inicio/telas/" />
-        <folder expanded="1" path="object-folder/botoes compra/" />
-        <folder expanded="1" path="object-folder/metagame/" />
-        <folder expanded="1" path="object-folder/jogo/" />
+        <folder expanded="0" path="object-folder/botoes compra/" />
+        <folder expanded="0" path="object-folder/metagame/" />
+        <folder expanded="0" path="object-folder/jogo/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />

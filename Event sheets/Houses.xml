@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Houses</name>
+    <events>
+        <variable constant="0" name="SlotEscolhido3" sid="627441008599231" static="0" type="number">0</variable>
+        <variable constant="0" name="Loja3" sid="949321921366034" static="0" type="number">0</variable>
+        <variable constant="0" name="Popup3" sid="779109499095491" static="0" type="number">0</variable>
+        <event-block sid="442466355108023">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="561193593355142" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">slot</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="669821719281407" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="670549367983674" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="642499883588503" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="661057682671510" type="slot">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="801838610698402">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="442047930140027" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">slot2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="701165656162644" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="884333268833054" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="858738084213465" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="228280807259884" type="slot2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="784349050586762">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="891538618806236" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">slot3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="931651704281480" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="244621667439763" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="542438235612780" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="557408244213381" type="slot3">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="382602582499768">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="886053325629446" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">slot4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="877815138188657" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="784278882635063" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="737943289283747" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="5" name="Set frame" sid="912170049183308" type="slot4">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="918082895005354">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="656960818565004" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">slot5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="846536952207307" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="643245570142534" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="295436603837768" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+                <action id="5" name="Set frame" sid="626749218239291" type="slot5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="187437915413816">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="511758611006004" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">slot6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="733189557798156" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="891675296406952" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="966684432674046" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Value">6</param>
+                </action>
+                <action id="5" name="Set frame" sid="765137758254282" type="slot6">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="620345113524698">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="614274758298158" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">slot7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="571349426665830" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="606530872785972" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="929917123559266" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Value">7</param>
+                </action>
+                <action id="5" name="Set frame" sid="518954810908155" type="slot7">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="635348995771239">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="420315296741641" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">slot8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="358505229858829" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="236297241523199" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="788166228659592" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Value">8</param>
+                </action>
+                <action id="5" name="Set frame" sid="828632870010757" type="slot8">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="265745073354564">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="816498987418932" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ComprarCasas</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="120625485272614" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="180061193574036" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">valorAntena</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="457136066422270" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Value">valorAntena</param>
+                </action>
+                <action id="-10" name="Add to" sid="684529033174510" type="System">
+                    <param id="0" name="Variable">Antenas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="807755738366126" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="732284615850396" type="operario">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="838187410014278" type="slot">
+                    <param id="0" name="Object">antena</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="295434727113532" type="slot" />
+                <action id="-16" name="Wait" sid="432901333223546" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="467390084156116" type="operario">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="852318155669037" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="770687864287040">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="953194850048187" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ComprarCasas</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="711236855273168" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="943737144291988" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">valorAntena</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="724974501714746" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Value">valorAntena</param>
+                </action>
+                <action id="-10" name="Add to" sid="670017424548301" type="System">
+                    <param id="0" name="Variable">Antenas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="184641223516553" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="523396812160693" type="operario">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="733068734215829" type="slot2">
+                    <param id="0" name="Object">antena</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="112095870812227" type="slot2" />
+                <action id="-16" name="Wait" sid="697929299617669" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="106150273743726" type="operario">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="819268028350526" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="611455113219990">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="871022910756865" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ComprarCasas</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="521320671386078" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="274355345166439" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">valorAntena</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="969544424196553" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Value">valorAntena</param>
+                </action>
+                <action id="-10" name="Add to" sid="980541863184816" type="System">
+                    <param id="0" name="Variable">Antenas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="260680450327917" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="657206230426075" type="operario">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="932549487734324" type="slot3">
+                    <param id="0" name="Object">antena</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="133969423009807" type="slot3" />
+                <action id="-16" name="Wait" sid="323587145681609" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="753168824932859" type="operario">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="596501103395294" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="646633254897052">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="590514861533588" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ComprarCasas</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="375791494744864" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="479652071375247" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">valorAntena</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="324685306147756" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Value">valorAntena</param>
+                </action>
+                <action id="-10" name="Add to" sid="390765715943004" type="System">
+                    <param id="0" name="Variable">Antenas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="481776472334849" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="679741625240758" type="operario">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="634642800913992" type="slot4">
+                    <param id="0" name="Object">antena</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="534689439340750" type="slot4" />
+                <action id="-16" name="Wait" sid="548011865159223" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="873770183392089" type="operario">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="914020748635637" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="511301067776159">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="412399547543406" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ComprarCasas</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="631908867658316" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="653910788541695" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">valorAntena</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="706563369932804" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Value">valorAntena</param>
+                </action>
+                <action id="-10" name="Add to" sid="981677246322061" type="System">
+                    <param id="0" name="Variable">Antenas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="580921246535171" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="493425751388134" type="operario">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="808383477518413" type="slot5">
+                    <param id="0" name="Object">antena</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="512535903308554" type="slot5" />
+                <action id="-16" name="Wait" sid="677586897581768" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="298755224430375" type="operario">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="434810567622028" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="525653148215358">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="292316022871202" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ComprarCasas</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="253606060983534" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="927241073747310" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">valorAntena</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="692525716340380" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Value">valorAntena</param>
+                </action>
+                <action id="-10" name="Add to" sid="220504444767080" type="System">
+                    <param id="0" name="Variable">Antenas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="315168532137669" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="846917428090596" type="operario">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="613272782171007" type="slot6">
+                    <param id="0" name="Object">antena</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="326104571199238" type="slot6" />
+                <action id="-16" name="Wait" sid="858786200739123" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="183665877660816" type="operario">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="203836857693476" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="812843339170214">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="809621096428359" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ComprarCasas</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="970859602558281" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">7</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="379512039790970" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">valorAntena</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="307203628575671" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Value">valorAntena</param>
+                </action>
+                <action id="-10" name="Add to" sid="700411577326734" type="System">
+                    <param id="0" name="Variable">Antenas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="446883064382166" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="668712522718916" type="operario">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="741598308529798" type="slot7">
+                    <param id="0" name="Object">antena</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="508102594232709" type="slot7" />
+                <action id="-16" name="Wait" sid="223052500224326" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="497554469257180" type="operario">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="684463379727971" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="138899887276152">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="575032594927072" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ComprarCasas</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="940561660018485" type="System">
+                    <param id="0" name="Variable">SlotEscolhido</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">8</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="930464725694392" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">valorAntena</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="162051380461778" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Value">valorAntena</param>
+                </action>
+                <action id="-10" name="Add to" sid="815614491826219" type="System">
+                    <param id="0" name="Variable">Antenas</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="986057977336244" type="System">
+                    <param id="0" name="Variable">Loja</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="619570723631209" type="operario">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="107713289818225" type="slot8">
+                    <param id="0" name="Object">antena</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="260595945656956" type="slot8" />
+                <action id="-16" name="Wait" sid="340744104523523" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="736522774944102" type="operario">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="697239324404940" type="System">
+                    <param id="0" name="Variable">Popup</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
