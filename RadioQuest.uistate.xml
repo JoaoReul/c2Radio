@@ -10,12 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">tela inici</layout>
-        <layout active="1" order="2">jog</layout>
-        <event-sheet order="1">tela ini</event-sheet>
-        <event-sheet order="3">Gameplay</event-sheet>
-        <event-sheet order="4">Antenna</event-sheet>
-        <event-sheet order="5">Eventos</event-sheet>
+        <layout order="1">tela inici</layout>
+        <layout order="3">jog</layout>
+        <event-sheet order="2">tela ini</event-sheet>
+        <event-sheet order="4">Gameplay</event-sheet>
+        <event-sheet active="1" order="5">Antenna</event-sheet>
+        <event-sheet order="6">Eventos</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
