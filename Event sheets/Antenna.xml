@@ -646,6 +646,14 @@
                 <condition id="-6" name="Every X seconds" sid="480912207405256" type="System">
                     <param id="0" name="Interval (seconds)">1.0</param>
                 </condition>
+                <condition id="-14" name="Compare variable" sid="697696080240663" type="System">
+                    <param id="0" name="Variable">evento</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="695030130058771" type="antena">
+                    <param id="0" name="Instance variable">Damaged</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="537277429589769" type="antena">
@@ -654,6 +662,56 @@
                 <action id="-10" name="Add to" sid="193687086816878" type="System">
                     <param id="0" name="Variable">Dados</param>
                     <param id="1" name="Value">Antenas*4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="792172150339895">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="886588426072284" type="antena" />
+                <condition id="-6" name="Every X seconds" sid="411666831237348" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="220108037499911" type="System">
+                    <param id="0" name="Variable">evento</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="900758326115872" type="antena">
+                    <param id="0" name="Instance variable">Damaged</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="870281721915441" type="antena">
+                    <param id="0" name="Frame number">antena.level-1</param>
+                </action>
+                <action id="-10" name="Add to" sid="160364054272930" type="System">
+                    <param id="0" name="Variable">Dados</param>
+                    <param id="1" name="Value">Antenas*4*2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="830330132490845">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="705690964706863" type="antena" />
+                <condition id="-6" name="Every X seconds" sid="544705651476619" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="987305020534491" type="System">
+                    <param id="0" name="Variable">evento</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="321373393429799" type="antena">
+                    <param id="0" name="Instance variable">Damaged</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="111724986696719" type="antena">
+                    <param id="0" name="Frame number">antena.level-1</param>
+                </action>
+                <action id="-10" name="Add to" sid="912646362936235" type="System">
+                    <param id="0" name="Variable">Dados</param>
+                    <param id="1" name="Value">Antenas*4/2</param>
                 </action>
             </actions>
         </event-block>
@@ -669,6 +727,9 @@
                     <param id="1" name="Comparison">5</param>
                     <param id="2" name="Value">antena.level*500</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="903319311460207" type="antena">
+                    <param id="0" name="Instance variable">Damaged</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-11" name="Subtract from" sid="713824229729212" type="System">
@@ -677,6 +738,50 @@
                 </action>
                 <action id="-11" name="Add to" sid="710154106143171" type="antena">
                     <param id="0" name="Instance variable">level</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="458155093090041">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="847648472831652" type="Mouse">
+                    <param id="0" name="Mouse button">2</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">antena</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="735986805131142" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">3000</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="919213890708206" type="antena">
+                    <param id="0" name="Instance variable">Damaged</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="546141892981078" type="System">
+                    <param id="0" name="Variable">Dinheiro</param>
+                    <param id="1" name="Value">3000</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="218324268034824" type="antena">
+                    <param id="0" name="Instance variable">Damaged</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="695804624660311">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="378867501981009" type="antena" />
+                <condition id="-14" name="Compare variable" sid="250988167700109" type="System">
+                    <param id="0" name="Variable">evento</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="767793785783414" type="System" />
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="704064617837284" type="antena">
+                    <param id="0" name="Instance variable">Damaged</param>
                     <param id="1" name="Value">1</param>
                 </action>
             </actions>

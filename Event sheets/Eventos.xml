@@ -7,7 +7,7 @@
         <event-block sid="873061874139161">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="365633279065133" type="System">
-                    <param id="0" name="Interval (seconds)">30</param>
+                    <param id="0" name="Interval (seconds)">60</param>
                 </condition>
             </conditions>
             <actions>
@@ -38,6 +38,9 @@
                 <action id="-15" name="Set visible" sid="888012656444237" type="chuva">
                     <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="0" name="Set text" sid="742518448107476" type="EventText">
+                    <param id="0" name="Text">&quot;Bom dia, ouvintes! O sol brilha intensamente em todo o território, com céu limpo e sem nuvens à vista. As condições são ideais para observações astronômicas diurnas. Aproveite o clima estável para coletar dados com tranquilidade.&quot;&#x0D;&#x0A;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="362811995784433">
@@ -60,6 +63,9 @@
                 </action>
                 <action id="-15" name="Set visible" sid="339724199261716" type="chuva">
                     <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Set text" sid="187888985164468" type="EventText">
+                    <param id="0" name="Text">&quot;Boa noite, radio astrônomos! O céu noturno está claro e sem nuvens, proporcionando uma visibilidade excepcional para observações celestes. Este é o momento perfeito para intensificar a coleta de dados, pois as condições estão favoráveis.&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -84,6 +90,9 @@
                 <action id="-15" name="Set visible" sid="713975500878512" type="chuva">
                     <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="0" name="Set text" sid="226151153828775" type="EventText">
+                    <param id="0" name="Text">&quot;Atenção, ouvintes! A previsão indica chuvas persistentes ao longo do dia, com céu encoberto e baixa visibilidade. Recomendamos cautela nas operações, pois as condições climáticas podem dificultar a coleta de dados.&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="329598717908386">
@@ -106,6 +115,9 @@
                 </action>
                 <action id="-15" name="Set visible" sid="237827603605826" type="chuva">
                     <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Set text" sid="405550470883433" type="EventText">
+                    <param id="0" name="Text">&quot;Alerta máximo! Um furacão de grande intensidade se aproxima, trazendo ventos fortes e tempestades severas. As autoridades recomendam a suspensão imediata de todas as atividades ao ar livre. Danos significativos às estruturas são esperados.&quot;</param>
                 </action>
             </actions>
         </event-block>
